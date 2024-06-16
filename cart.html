@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cart_page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <section class="nav">
+        <div class="logo"><img src="images/logo-no-background.png" alt=""></div>
+        
+        <div class="nav_container">
+            <ul>
+                <li><i class="fa-solid fa-xmark" id="cross"></i></li>
+                <li class="link_container"><a href="index.html" class="link">Home</a></li>
+                <li class="link_container"><a href="shop.html" class="link">Shop</a></li>
+                <li class="link_container"><a href="blog.html" class="link">Blog</a></li>
+                <li class="link_container"><a href="about.html" class="link">About</a></li>
+                <li class="link_container"><a href="contact.html" class="link">Contact</a></li>
+                <li class="link_container bag_container"><a class=" active" href="cart.html" class="bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="mobile">
+            <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i class="fas fa-outdent" id="hash"></i>
+        </div>
+    </section>
+
+    <section class="content4 shop_header blog_header about_header">
+        <div class="banner bg">
+            <h1>#Cart</h1>
+            <h4 id="cart_h4">Add your Coupoun code & Save upto 70% Off!</h4>
+        </div>
+    </section>
+
+    <div class="cart_page_content">
+        <table>
+            <thead>
+                <tr>
+                    <td>REMOVE</td>
+                    <td>IMAGE</td>
+                    <td>PRODUCT</td>
+                    <td>PRICE</td>
+                    <td>QUANTITY</td>
+                    <td>SUBTOTAL</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/p1.jpg" alt=""></td>
+                    <td>Carbon Astronaut T-Shirts</td>
+                    <td>$118.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.99</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/p2.jpg" alt=""></td>
+                    <td>Carbon Astronaut T-Shirts</td>
+                    <td>$118.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.99</td>
+                </tr>
+
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="images/p3.jpg" alt=""></td>
+                    <td>Carbon Astronaut T-Shirts</td>
+                    <td>$118.99</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$118.99</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+    </div>
+    
+
+    <div class="cart_page_content2">
+        <div class="coupoun">
+            <h4>Apply Coupon</h4>
+            <div>
+                <input type="text" placeholder="Enter Your Coupoun">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+
+        <div class="cart_total">
+            <h4>Cart Totals</h4>
+            <div class="subtotal_table">
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$335</td>
+                    </tr>
+                    <tr>
+                        <td>Shopping</td>
+                        <td>Free</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$335</td>
+                    </tr>
+                </table>
+            </div>
+            <button class="normal">Proceed to checkout</button>
+        </div>
+    </div>
+
+    <section class="content8">
+        <div class="content8_text">
+            <h4>Sign Up For Newletters</h4>
+            <p>Get E-mail updates about lastest shops and <span style="color: orange;">special offers!</span></p>
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Your E-mail Address">
+            <button class="normal" type="submit">Sign Up</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer1">
+            <div class="col1">
+                <img src="images/logo-no-background.png" alt="">
+                <h4>Contact</h4>
+                <div class="contact_details">
+                    <p><span style="font-weight: bolder;">Address:</span>24 WallStreet Walmart</p>
+                    <p><span style="font-weight: bolder;">Phone:</span>+31 333 33 77 777/+31 777 77 33 333</p>
+                    <p><span style="font-weight: bolder;">Hours:</span>10:00 18:00, MON-FRI</p>
+                </div>
+                <h4>Follow Us</h4>
+                <div class="media_container">
+                    <a href="facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="pinterest.com"><i class="fa-brands fa-pinterest-p"></i></a>
+                    <a href="youtube.com"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+    
+            <div class="col_about">
+                <h4>About</h4>
+                <div class="col_about_links">
+                    <a href="#">About Us</a>
+                    <a href="#">Delivery Information</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms & Conditions</a>
+                    <a href="#">Contact Us</a>
+                </div>
+            </div>
+    
+            <div class="col_about">
+                <h4>My Account</h4>
+                <div class="col_about_links">
+                    <a href="#">Sign In</a>
+                    <a href="#">View Cart</a>
+                    <a href="#">My Wishlist</a>
+                    <a href="#">Track My order</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+    
+            <div class="last_col">
+                <h4>Install App</h4>
+                <p>From app Store or Google Play</p>
+                <div class="app_images">
+                    <img src="images/app_images/app.jpg" alt="">
+                    <img src="images/app_images/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="images/app_images/pay.png" alt="">
+    
+            </div>
+
+        </div>
+        
+
+        <div class="copyright">@2024.khushbooVDSA_7391-HTML CSS JS Ecommerce_Web</div>
+
+
+        
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
