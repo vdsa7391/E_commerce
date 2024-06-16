@@ -11,9 +11,10 @@ It include:
     5. Contact page
     6. Cart Page
 
-My website is LIVE on 
+My website is LIVE on https://vdsa7391.github.io/E_commerce/
+Do try the responsive version as it have customize navbar and other more interesting stuff.
 
 
 
 /*  Feel free to give suggestion
-    Constructive Feedback is all i need. */
+    Constructive Feedback is always welcome */
