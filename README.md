@@ -20,7 +20,7 @@ This is a static e-commerce website for a clothing store, created using **HTML**
 ## Demo
 A live preview of the project can be accessed here: 
 
-
+https://vdsa7391.github.io/E_commerce/
 
 ## Technologies Used
 - **HTML5**: Structure and layout.
@@ -45,17 +45,17 @@ The site includes the following core pages:
 ## Project Structure
 ```
 E_commerce/
-├── assets/                # Images, fonts, and other media files
-├── css/                   # CSS files
-│   └── styles.css         # Main stylesheet
-├── js/                    # JavaScript files
-│   └── script.js          # Script for animations and interactions
+├── images                # Images, fonts, and other media files
+├── style.css             # Main stylesheet           
+├── script.js             # Script for animations and interactions        
 ├── index.html             # Home page
 ├── shop.html              # Shop page
 ├── product.html           # Product details page
 ├── about.html             # About page
 ├── contact.html           # Contact page
 └── cart.html              # Cart page (placeholder)
+└── README.md              
+
 ```
 
 ## Contributing
